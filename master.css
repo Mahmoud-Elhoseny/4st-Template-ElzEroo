@@ -121,7 +121,7 @@ ul {
 }
 
 .head .search::before {
-  font-family: var(--fa-style-family-classic);
+  font-family: "Font Awesome 5 Free";
   content: "\f002";
   font-weight: 900;
   position: absolute;
