@@ -33,15 +33,11 @@
 let email = document.querySelector(".settings-page .email")
 let changeBtn = document.querySelector(".settings-page .change-btn")
 
-console.log(email);
-console.log(changeBtn);
-
-
-changeBtn.addEventListener("click",function(){
+changeBtn.addEventListener("click", function () {
     email.removeAttribute("disabled")
     email.setAttribute("value", "");
     email.setAttribute("placeholder", "Enter Your Email");
-    
+
 })
 
 

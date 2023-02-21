@@ -477,6 +477,13 @@ ul {
 .social-media .box .info {
   flex-grow: 1;
 }
+.social-media .box svg{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
 .social-media .box i {
   transition: var(--main-transition);
 }
@@ -501,26 +508,25 @@ ul {
   color: #0077b5;
 }
 
-.social-media .twitter i,
-svg {
+.social-media .twitter {
   background-color: #1da1f2;
   padding: 10px;
 }
-.social-media .face i,
+.social-media .face
 svg {
   background-color: #1877f2;
   padding: 16px;
   padding-bottom: 9px;
   padding-top: 9px;
 }
-.social-media .youtube i,
+.social-media .youtube
 svg {
   background-color: #ff0000;
   padding: 8px;
   padding-bottom: 9px;
   padding-top: 9px;
 }
-.social-media .linked i,
+.social-media .linked
 svg {
   background-color: #0077b5;
   padding: 12px;
@@ -669,7 +675,7 @@ svg {
   width: calc(100% - 80px);
 }
 
-.settings-page .social-box i {
+.settings-page .social-box svg {
   width: 40px;
   height: 40px;
   background-color: #f6f6f6;
@@ -680,13 +686,13 @@ svg {
 }
 
 .settings-page .social-box input {
-  height: 40px;
+  height: 42px;
   background-color: #f6f6f6;
   border: 1px solid #ddd;
   border-radius: 0 6px 6px 0;
   padding-left: 10px;
 }
-.settings-page .social-box > div:focus-within i {
+.settings-page .social-box > div:focus-within svg {
   color: black;
 }
 
@@ -796,7 +802,12 @@ svg {
   position: relative;
   margin-right: 8px;
 }
-
+.backup-manager .servers .server label svg{
+  top: 50%;
+left: 50%;
+position: relative;
+transform: translate(-50%);
+}
 .backup-manager .servers .server label {
   cursor: pointer;
 }
@@ -1184,7 +1195,7 @@ svg {
 .files-page .files-stats .upload:hover {
   background-color: var(--blue-alt-color);
 }
-.files-page .files-stats .upload:hover i {
+.files-page .files-stats .upload:hover svg {
   animation: go-up 0.8s infinite;
 }
 
@@ -1268,11 +1279,11 @@ svg {
 .plans-page .plan ul li .yes {
   color: var(--green-color);
 }
-.plans-page .plan ul li i:not(.yes, .help) {
+.plans-page .plan ul li svg:not(.yes, .help) {
   color: var(--red-color);
 }
 
-.plans-page .plan ul li i:first-child {
+.plans-page .plan ul li svg:first-child {
   font-size: 15px;
   margin-right: 5px;
 }
