@@ -1112,7 +1112,7 @@ transform: translate(-50%);
   left: 10px;
   top: 10px;
 }
-.friends-page .contact i {
+.friends-page .contact svg {
   background-color: #eee;
   border-radius: 50%;
   padding: 10px;
@@ -1121,7 +1121,7 @@ transform: translate(-50%);
   cursor: pointer;
   transition: var(--main-transition);
 }
-.friends-page .contact i:hover {
+.friends-page .contact:hover svg {
   background-color: var(--blue-color);
   color: white;
 }
@@ -1135,7 +1135,7 @@ transform: translate(-50%);
   padding-bottom: 15px;
 }
 
-.friends-page .friend .icons i {
+.friends-page .friend .icons svg {
   margin-right: 5px;
 }
 
