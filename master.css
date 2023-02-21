@@ -1121,7 +1121,7 @@ transform: translate(-50%);
   cursor: pointer;
   transition: var(--main-transition);
 }
-.friends-page .contact:hover svg {
+.friends-page .contact svg:hover {
   background-color: var(--blue-color);
   color: white;
 }
