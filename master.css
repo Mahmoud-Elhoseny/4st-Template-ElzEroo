@@ -477,7 +477,7 @@ ul {
 .social-media .box .info {
   flex-grow: 1;
 }
-.social-media .box svg{
+.social-media .box svg {
   width: 40px;
   height: 40px;
   display: flex;
@@ -512,22 +512,19 @@ ul {
   background-color: #1da1f2;
   padding: 10px;
 }
-.social-media .face
-svg {
+.social-media .face svg {
   background-color: #1877f2;
   padding: 16px;
   padding-bottom: 9px;
   padding-top: 9px;
 }
-.social-media .youtube
-svg {
+.social-media .youtube svg {
   background-color: #ff0000;
   padding: 8px;
   padding-bottom: 9px;
   padding-top: 9px;
 }
-.social-media .linked
-svg {
+.social-media .linked svg {
   background-color: #0077b5;
   padding: 12px;
   padding-bottom: 9px;
@@ -802,11 +799,11 @@ svg {
   position: relative;
   margin-right: 8px;
 }
-.backup-manager .servers .server label svg{
+.backup-manager .servers .server label svg {
   top: 50%;
-left: 50%;
-position: relative;
-transform: translate(-50%);
+  left: 50%;
+  position: relative;
+  transform: translate(-50%);
 }
 .backup-manager .servers .server label {
   cursor: pointer;
