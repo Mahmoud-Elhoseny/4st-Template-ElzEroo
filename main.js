@@ -1,25 +1,11 @@
-// let icons = document.querySelectorAll(".tasks i")
-// let infoTasks = document.querySelectorAll(".tasks .info")
+let icons = document.querySelectorAll(".delete")
 
 
-
-
-// function clicked() {
-//     infoTasks.forEach(task => {
-
-//         icons.forEach(icon => {
-//             icon.addEventListener("click", function (e) {
-//                 icon.remove(task)
-//             })
-//         })
-//     }
-
-
-
-// )}
-
-// clicked()
-
-
-
-
+function deleteone() {
+    icons.forEach(icon => {
+        icon.addEventListener("click", (e) => {
+            icon.parentElement.remove()
+        })
+    });
+}
+deleteone()
